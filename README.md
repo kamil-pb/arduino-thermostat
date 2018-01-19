@@ -20,4 +20,5 @@ elif temp > TARGET_TEMPERATURE_MAX_K:
   pump.off()
 else:
   # maintain the current pump state
+  pass
 ```
