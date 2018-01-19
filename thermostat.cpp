@@ -10,13 +10,10 @@
 // How often to sample the temperature.
 #define SAMPLE_FREQUENCY_HZ 1
 
-// The thermostat's target temperature in Kelvin.
-#define TARGET_TEMPERATURE_K 294.15
-
-// The minimum acceptable temperature (target - 10%).
+// The minimum acceptable temperature (target - 10% = 294.15 * 0.9).
 #define TARGET_TEMPERATURE_MIN_K 264.735
 
-// The maximum acceptable temperature (target + 10%).
+// The maximum acceptable temperature (target + 10% = 294.15 * 1.1).
 #define TARGET_TEMPERATURE_MAX_K 323.565
 
 // Thermistor constants.
